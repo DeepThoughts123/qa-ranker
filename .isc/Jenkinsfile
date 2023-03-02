@@ -1,0 +1,9 @@
+squircleCi(
+    enableArtifactoryPython: true,
+) {
+  run script: "bash bin/install_linux_dependencies.sh", user: 'root'
+  run script: "python -m pip install --upgrade pip", user: 'root'
+  run script: "python -m pip install -r requirements.txt", user: 'root'
+  run script: "python -m pip install . --no-deps", user: 'root'
+  run script: "python -m unittest -v", user: 'root'
+}

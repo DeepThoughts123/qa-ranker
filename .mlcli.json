@@ -1,0 +1,15 @@
+{
+  "organization": "algorithms",
+  "project_name": "qa-ranker",
+  "code_owners": "@instacart/infra-ml",
+  "model_name": "QARanker",
+  "project_slug": "qa_ranker",
+  "model_slug": "",
+  "team": "general-ml",
+  "team_slug": "",
+  "organization_slug": "",
+  "backend": "",
+  "framework": "",
+  "project_description": "Algo to rank questions",
+  "capitalized_model_name": ""
+}

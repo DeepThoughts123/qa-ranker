@@ -1,0 +1,8 @@
+#
+# DO NOT MANUALLY MODIFY!!!
+#
+# Use 'mlcli build requirements' to auto-generate requirements
+#
+
+click==8.0.4
+    # via qa-ranker (setup.py)

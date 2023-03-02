@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Support for `isc console`
+#
+
+# Load the env
+source /etc/default/app
+
+# Start Python
+python

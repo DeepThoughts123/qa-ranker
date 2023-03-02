@@ -1,0 +1,6 @@
+version: "3.8"
+
+services:
+  main:
+    image: 143926955519.dkr.ecr.us-east-1.amazonaws.com/docker-hub/python:3.8-slim
+    container_name: python

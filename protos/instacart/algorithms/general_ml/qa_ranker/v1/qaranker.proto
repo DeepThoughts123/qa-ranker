@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package instacart.algorithms.general_ml.qa_ranker.v1;
+
+option go_package = "github.com/instacart/carrot/pbgen/pbgen-go/instacart/algorithms/general_ml/qa_ranker/v1;qa_rankerpb";
+
+message GetQARankerScoresRequest {
+    repeated float feature_ids = 1;
+}
+
+message GetQARankerScoresResponse {
+    repeated float scores = 1;
+}
+
+service QARankerService {
+    rpc GetQARankerScores(GetQARankerScoresRequest) returns(GetQARankerScoresResponse);
+}
